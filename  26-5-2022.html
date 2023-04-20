@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" /> 
+<head>
+<style>
+
+.tabs{
+  overflow:hidden;
+  clear:both;
+ 
+}
+.tabs ul{
+  list-style-type:none;
+  bottom: -1px;
+  position:relative;
+}
+.tabs li{
+  float:left;
+}
+ 
+.tabs{
+    overflow: hidden;
+    clear: both;
+    width: 80%;
+    margin: auto;
+}
+.tabs ul{
+  list-style-type:none;
+  bottom: -1px;
+  position:relative;
+}
+.tabs li{
+  float:left;
+}
+ 
+.tabs a{
+  display:block;
+  padding:5px 10px;
+  background-color: #EEE;
+  color: #000;
+  text-decoration: none;
+  margin: 0 4px;
+  border-top:1px solid #CCC;
+  border-left:1px solid #DDD;
+  border-right:1px solid #DDD;
+  font:13px/18px verdana,arial,sans-serif;
+  border-bottom:1px solid #CCC;
+}
+.tabs a.active{
+  background-color: #fff;
+  border-bottom:1px solid #fff;
+}
+.tabs div{
+  clear: both;
+  border:1px solid #CCC;
+  padding:5px;
+  font-family:verdana;
+  font-size:13px;
+  background-color: #fff;
+  display:none;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    /*border-collapse:collapse;*/
+    /*border:1px solid #FF0000;*/
+    /*border-spacing: 20px 20px;*/
+    border-spacing: 0px 20px;
+}
+
+table td{
+    /*border:1px solid #FF0000;*/
+}
+
+table th{
+    /*border:1px solid #FF0000;*/
+    border-spacing: 0px;
+}
+
+tbody tr>td{
+    background-color:rgba(0, 0, 0, 0.05);
+}
+
+[data-label="foto"] {
+    width: 75px;
+    padding: 0 20px 0 20px;
+    height: 90px;
+    border-radius: 20px 0 0 20px;
+}
+
+[data-label="fecha"] {
+    border-radius: 0 20px 20px 0;
+}
+
+</style></head><body>
+<div class="tabs">
+				<ul>
+<li><a href="#tab0" class="active">DETECTADAS</a></li>
+<li><a href="#tab1">Messenger</a></li>
+<li><a href="#tab2">Navegador Mint</a></li>
+<li><a href="#tab3">Galería</a></li>
+<li><a href="#tab4">Acceso directo a la App Store</a></li>
+<li><a href="#tab5">Mirror Screen on TV</a></li>
+<li><a href="#tab6">Swift Translate</a></li>
+<li><a href="#tab7">webpack</a></li>
+<li><a href="#tab8">Gboard</a></li>
+<li><a href="#tab9">WeVideo</a></li>
+<li><a href="#tab10">OneNote</a></li>
+<li><a href="#tab11">OneUi</a></li>
+<li><a href="#tab12">Spark</a></li>
+<li><a href="#tab13">Snaptube</a></li>
+<li><a href="#tab14">Device ID</a></li>
+<li><a href="#tab15">Contactos</a></li>
+<li><a href="#tab16">Fotos</a></li>
+<li><a href="#tab17">Grabadora</a></li>
+<li><a href="#tab18">Telegram</a></li>
+<li><a href="#tab19">Configuración oculta de Android</a></li>
+<li><a href="#tab20">Brújula</a></li>
+<li><a href="#tab21">Classroom</a></li>
+<li><a href="#tab22">Google Play Libros</a></li>
+<li><a href="#tab23">Seguridad</a></li>
+<li><a href="#tab24">Confluence</a></li>
+<li><a href="#tab25">Mensajes</a></li>
+<li><a href="#tab26">YouTube Music</a></li>
+<li><a href="#tab27">Facebook</a></li>
+<li><a href="#tab28">Spike</a></li>
+<li><a href="#tab29">Root Checker</a></li>
+<li><a href="#tab30">Device ID Changer</a></li>
+<li><a href="#tab31">Escritorio remoto</a></li>
+<li><a href="#tab32">QKSMS</a></li>
+<li><a href="#tab33">DC Launcher</a></li>
+<li><a href="#tab34">CallApp Contacts</a></li>
+<li><a href="#tab35">Drive</a></li>
+<li><a href="#tab36">Ping</a></li>
+<li><a href="#tab37">Apps2SD PRO</a></li>
+<li><a href="#tab38">SD Card Recovery</a></li>
+<li><a href="#tab39">Wallpaper Changer</a></li>
+<li><a href="#tab40">Galería</a></li>
+<li><a href="#tab41">Reloj</a></li>
+<li><a href="#tab42">¿Debería responder?</a></li>
+<li><a href="#tab43">Google Cloud</a></li>
+<li><a href="#tab44">Photo On Photo</a></li>
+<li><a href="#tab45">Spotify</a></li>
+<li><a href="#tab46">Escáner QR</a></li>
+<li><a href="#tab47">Maps Go</a></li>
+<li><a href="#tab48">JAX VPN</a></li>
+<li><a href="#tab49">Podcasts de Google</a></li>
+<li><a href="#tab50">ScanScan</a></li>
+<li><a href="#tab51">SDFS</a></li>
+<li><a href="#tab52">Calculadora</a></li>
+<li><a href="#tab53">Telegram X</a></li>
+<li><a href="#tab54">OpenKeychain</a></li>
+<li><a href="#tab55">WPS Office</a></li>
+<li><a href="#tab56">Lens</a></li>
+<li><a href="#tab57">Traductor</a></li>
+<li><a href="#tab58">Enlace a Windows</a></li>
+<li><a href="#tab59">Earth</a></li>
+<li><a href="#tab60">Google Noticias</a></li>
+<li><a href="#tab61">Device ID</a></li>
+<li><a href="#tab62">Hidden Settings</a></li>
+<li><a href="#tab63">PDF Converter</a></li>
+<li><a href="#tab64">Slimperience</a></li>
+<li><a href="#tab65">Hik-Connect</a></li>
+<li><a href="#tab66">SimDif</a></li>
+<li><a href="#tab67">KMP</a></li>
+<li><a href="#tab68">Drive</a></li>
+<li><a href="#tab69">Galería</a></li>
+<li><a href="#tab70">CRE</a></li>
+<li><a href="#tab71">File Manager</a></li>
+<li><a href="#tab72">GitHub</a></li>
+<li><a href="#tab73">Servicios y comentarios</a></li>
+<li><a href="#tab74">Messenger Lite</a></li>
+<li><a href="#tab75">Disconnect for Samsung Internet Browser</a></li>
+<li><a href="#tab76">Controles parentales</a></li>
+<li><a href="#tab77">Permissions Manager</a></li>
+<li><a href="#tab78">FotoScan</a></li>
+<li><a href="#tab79">QR Scanner</a></li>
+<li><a href="#tab80">Recuperar fotos borradas del móvil guía</a></li>
+<li><a href="#tab81">Home</a></li>
+<li><a href="#tab82">Lite</a></li>
+<li><a href="#tab83">Chrome Beta</a></li>
+<li><a href="#tab84">Nest</a></li>
+<li><a href="#tab85">SD File Explorer</a></li>
+<li><a href="#tab86">AZ Video Player</a></li>
+<li><a href="#tab87">SD Card Manager</a></li>
+<li><a href="#tab88">Mi Tigo</a></li>
+<li><a href="#tab89">Quickpic Gallery</a></li>
+<li><a href="#tab90">Google My Business</a></li>
+<li><a href="#tab91">Newton</a></li>
+<li><a href="#tab92">Galería</a></li>
+<li><a href="#tab93">Authenticator</a></li>
+<li><a href="#tab94">Bitmoji</a></li>
+<li><a href="#tab95">Ajustes</a></li>
+<li><a href="#tab96">Files by Google</a></li>
+<li><a href="#tab97">Galería</a></li>
+<li><a href="#tab98">Llene el almacenamiento</a></li>
+<li><a href="#tab99">Notas</a></li>
+<li><a href="#tab100">WhatsApp</a></li>
+<li><a href="#tab101">Safe Folder</a></li>
+<li><a href="#tab102">Google One</a></li>
+<li><a href="#tab103">Radio FM</a></li>
+<li><a href="#tab104">Herramientas SIM</a></li>
+<li><a href="#tab105">Maps</a></li>
+<li><a href="#tab106">Chrome</a></li>
+<li><a href="#tab107">Find Device ID</a></li>
+<li><a href="#tab108">Autosync</a></li>
+<li><a href="#tab109">Cámara</a></li>
+<li><a href="#tab110">Mi Tigo</a></li>
+<li><a href="#tab111">Administrador de archivos</a></li>
+<li><a href="#tab112">LTE Discovery</a></li>
+<li><a href="#tab113">Bienestar digital</a></li>
+<li><a href="#tab114">Device ID</a></li>
+<li><a href="#tab115">Google Play Store</a></li>
+<li><a href="#tab116">Notificaciones de Android en Windows</a></li>
+<li><a href="#tab117">Edge</a></li>
+<li><a href="#tab118">WPS Fill & Sign</a></li>
+<li><a href="#tab119">TapScanner</a></li>
+<li><a href="#tab120">Authenticator</a></li>
+<li><a href="#tab121">LinkedIn</a></li>
+<li><a href="#tab122">OneDrive</a></li>
+<li><a href="#tab123">Temas</a></li>
+<li><a href="#tab124">Box</a></li>
+<li><a href="#tab125">OneDrive</a></li>
+<li><a href="#tab126">Buscador de Vídeo Invisible</a></li>
+<li><a href="#tab127">Teléfono</a></li>
+<li><a href="#tab128">Nomedia</a></li>
+<li><a href="#tab129">OneSync</a></li>
+<li><a href="#tab130">IFTTT</a></li>
+<li><a href="#tab131">Office</a></li>
+<li><a href="#tab132">Photo Editor</a></li>
+<li><a href="#tab133">WhatsApp Business</a></li>
+<li><a href="#tab134">BiMax_EMUI</a></li>
+<li><a href="#tab135">Google Developers</a></li>
+<li><a href="#tab136">LinkedIn Lite</a></li>
+<li><a href="#tab137">Device ID</a></li>
+<li><a href="#tab138">Recovery Video</a></li>
+<li><a href="#tab139">AppHider</a></li>
+<li><a href="#tab140">Photo Gallery</a></li>
+<li><a href="#tab141">Archivo de la aplicación</a></li>
+<li><a href="#tab142">Almacenamiento en la nube</a></li>
+<li><a href="#tab143">Family Link</a></li>
+<li><a href="#tab144">Tiempo</a></li>
+<li><a href="#tab145">Advanced Task Manager</a></li>
+<li><a href="#tab146">Samsung OneUI Font</a></li>
+<li><a href="#tab147">Música</a></li>
+<li><a href="#tab148">Cámara</a></li>
+<li><a href="#tab149">Duo</a></li>
+<li><a href="#tab150">Google Play Juegos</a></li>
+<li><a href="#tab151">Descargas</a></li>
+<li><a href="#tab152">YT Studio</a></li>
+<li><a href="#tab153">KMPlayer</a></li>
+<li><a href="#tab154">Keepsafe</a></li>
+<li><a href="#tab155">SHAREit Lite</a></li>
+<li><a href="#tab156">Chat</a></li>
+<li><a href="#tab157">Gmail</a></li>
+<li><a href="#tab158">Escáner</a></li>
+<li><a href="#tab159">Crash Log Viewer</a></li>
+<li><a href="#tab160">DontKillMyApp</a></li>
+<li><a href="#tab161">Actualizador de línea principal</a></li>
+<li><a href="#tab162">Como Tener Dos whtsp En Un Mismo Telefono Guia</a></li>
+<li><a href="#tab163">Smart File Manager</a></li>
+<li><a href="#tab164">Corrige el video dañado & reparar mp4</a></li>
+<li><a href="#tab165">Encontrar mi dispositivo</a></li>
+<li><a href="#tab166">Galería</a></li>
+<li><a href="#tab167">Google Contacts</a></li>
+<li><a href="#tab168">Outlook</a></li>
+<li><a href="#tab169">Galería</a></li>
+<li><a href="#tab170">Hojas de cálculo</a></li>
+<li><a href="#tab171">ShareMe</a></li>
+<li><a href="#tab172">Mi Vídeo</a></li>
+<li><a href="#tab173">Información del sistema Android</a></li>
+<li><a href="#tab174">Keep</a></li>
+<li><a href="#tab175">Root Certificate Manager</a></li>
+<li><a href="#tab176">DocuSign</a></li>
+<li><a href="#tab177">InShare</a></li>
+<li><a href="#tab178">gDMSS Lite</a></li>
+<li><a href="#tab179">19216801 Router</a></li>
+<li><a href="#tab180">Redmi Xiaomi Mobile Secret Codes</a></li>
+<li><a href="#tab181">Consola de desarrollador</a></li>
+<li><a href="#tab182">Dropbox</a></li>
+<li><a href="#tab183">SD Card Repair Fix Dmaged SD Card</a></li>
+<li><a href="#tab184">Internet de Samsung</a></li>
+<li><a href="#tab185">Outlook</a></li>
+<li><a href="#tab186">Lark Player</a></li>
+<li><a href="#tab187">Calculadora</a></li>
+<li><a href="#tab188">Telegram WebZ</a></li>
+<li><a href="#tab189">Calendar</a></li>
+<li><a href="#tab190">Documentos</a></li>
+<li><a href="#tab191">Autenticador</a></li>
+<li><a href="#tab192">Delimitar imagen</a></li>
+<li><a href="#tab193">Asistente</a></li>
+<li><a href="#tab194">Cloud Console</a></li>
+<li><a href="#tab195">Device Info</a></li>
+<li><a href="#tab196">PowerPoint</a></li>
+<li><a href="#tab197">Download Manager</a></li>
+<li><a href="#tab198">filemanager</a></li>
+<li><a href="#tab199">KineMaster</a></li>
+<li><a href="#tab200">My IP Address</a></li>
+<li><a href="#tab201">YouTube</a></li>
+<li><a href="#tab202">Bóveda Privada</a></li>
+<li><a href="#tab203">Información de desarrollo de Android</a></li>
+<li><a href="#tab204">Google</a></li>
+<li><a href="#tab205">Slack</a></li>
+<li><a href="#tab206">Gestor de archivos</a></li>
+<li><a href="#tab207">Grabadora de pantalla</a></li>
+<li><a href="#tab208">XPlayer - Reproductor de Vídeo</a></li>
+<li><a href="#tab209">K-9 Mail</a></li>
+<li><a href="#tab210">Tracksolid</a></li>			</ul>
+<div id="tab0"><table></table></div><div id="tab1"><table></table></div><div id="tab2"><table></table></div><div id="tab3"><table></table></div><div id="tab4"><table></table></div><div id="tab5"><table></table></div><div id="tab6"><table></table></div><div id="tab7"><table></table></div><div id="tab8"><table></table></div><div id="tab9"><table></table></div><div id="tab10"><table></table></div><div id="tab11"><table></table></div><div id="tab12"><table></table></div><div id="tab13"><table></table></div><div id="tab14"><table></table></div><div id="tab15"><table></table></div><div id="tab16"><table></table></div><div id="tab17"><table></table></div><div id="tab18"><table></table></div><div id="tab19"><table></table></div><div id="tab20"><table></table></div><div id="tab21"><table></table></div><div id="tab22"><table></table></div><div id="tab23"><table></table></div><div id="tab24"><table></table></div><div id="tab25"><table></table></div><div id="tab26"><table></table></div><div id="tab27"><table></table></div><div id="tab28"><table></table></div><div id="tab29"><table></table></div><div id="tab30"><table></table></div><div id="tab31"><table></table></div><div id="tab32"><table></table></div><div id="tab33"><table></table></div><div id="tab34"><table></table></div><div id="tab35"><table></table></div><div id="tab36"><table></table></div><div id="tab37"><table></table></div><div id="tab38"><table></table></div><div id="tab39"><table></table></div><div id="tab40"><table></table></div><div id="tab41"><table></table></div><div id="tab42"><table></table></div><div id="tab43"><table></table></div><div id="tab44"><table></table></div><div id="tab45"><table></table></div><div id="tab46"><table></table></div><div id="tab47"><table></table></div><div id="tab48"><table></table></div><div id="tab49"><table></table></div><div id="tab50"><table></table></div><div id="tab51"><table></table></div><div id="tab52"><table></table></div><div id="tab53"><table></table></div><div id="tab54"><table></table></div><div id="tab55"><table></table></div><div id="tab56"><table></table></div><div id="tab57"><table></table></div><div id="tab58"><table></table></div><div id="tab59"><table></table></div><div id="tab60"><table></table></div><div id="tab61"><table></table></div><div id="tab62"><table></table></div><div id="tab63"><table></table></div><div id="tab64"><table></table></div><div id="tab65"><table></table></div><div id="tab66"><table></table></div><div id="tab67"><table></table></div><div id="tab68"><table></table></div><div id="tab69"><table></table></div><div id="tab70"><table></table></div><div id="tab71"><table></table></div><div id="tab72"><table></table></div><div id="tab73"><table></table></div><div id="tab74"><table></table></div><div id="tab75"><table></table></div><div id="tab76"><table></table></div><div id="tab77"><table></table></div><div id="tab78"><table></table></div><div id="tab79"><table></table></div><div id="tab80"><table></table></div><div id="tab81"><table></table></div><div id="tab82"><table></table></div><div id="tab83"><table></table></div><div id="tab84"><table></table></div><div id="tab85"><table></table></div><div id="tab86"><table></table></div><div id="tab87"><table></table></div><div id="tab88"><table></table></div><div id="tab89"><table></table></div><div id="tab90"><table></table></div><div id="tab91"><table></table></div><div id="tab92"><table></table></div><div id="tab93"><table></table></div><div id="tab94"><table></table></div><div id="tab95"><table></table></div><div id="tab96"><table></table></div><div id="tab97"><table></table></div><div id="tab98"><table></table></div><div id="tab99"><table></table></div><div id="tab100"><table></table></div><div id="tab101"><table></table></div><div id="tab102"><table></table></div><div id="tab103"><table></table></div><div id="tab104"><table></table></div><div id="tab105"><table></table></div><div id="tab106"><table></table></div><div id="tab107"><table></table></div><div id="tab108"><table></table></div><div id="tab109"><table></table></div><div id="tab110"><table></table></div><div id="tab111"><table></table></div><div id="tab112"><table></table></div><div id="tab113"><table></table></div><div id="tab114"><table></table></div><div id="tab115"><table></table></div><div id="tab116"><table></table></div><div id="tab117"><table></table></div><div id="tab118"><table></table></div><div id="tab119"><table></table></div><div id="tab120"><table></table></div><div id="tab121"><table></table></div><div id="tab122"><table></table></div><div id="tab123"><table></table></div><div id="tab124"><table></table></div><div id="tab125"><table></table></div><div id="tab126"><table></table></div><div id="tab127"><table></table></div><div id="tab128"><table></table></div><div id="tab129"><table></table></div><div id="tab130"><table></table></div><div id="tab131"><table></table></div><div id="tab132"><table></table></div><div id="tab133"><table></table></div><div id="tab134"><table></table></div><div id="tab135"><table></table></div><div id="tab136"><table></table></div><div id="tab137"><table></table></div><div id="tab138"><table></table></div><div id="tab139"><table></table></div><div id="tab140"><table></table></div><div id="tab141"><table></table></div><div id="tab142"><table></table></div><div id="tab143"><table></table></div><div id="tab144"><table></table></div><div id="tab145"><table></table></div><div id="tab146"><table></table></div><div id="tab147"><table></table></div><div id="tab148"><table></table></div><div id="tab149"><table></table></div><div id="tab150"><table></table></div><div id="tab151"><table></table></div><div id="tab152"><table></table></div><div id="tab153"><table></table></div><div id="tab154"><table></table></div><div id="tab155"><table></table></div><div id="tab156"><table></table></div><div id="tab157"><table></table></div><div id="tab158"><table></table></div><div id="tab159"><table></table></div><div id="tab160"><table></table></div><div id="tab161"><table></table></div><div id="tab162"><table></table></div><div id="tab163"><table></table></div><div id="tab164"><table></table></div><div id="tab165"><table></table></div><div id="tab166"><table></table></div><div id="tab167"><table></table></div><div id="tab168"><table></table></div><div id="tab169"><table></table></div><div id="tab170"><table></table></div><div id="tab171"><table></table></div><div id="tab172"><table></table></div><div id="tab173"><table></table></div><div id="tab174"><table></table></div><div id="tab175"><table></table></div><div id="tab176"><table></table></div><div id="tab177"><table></table></div><div id="tab178"><table></table></div><div id="tab179"><table></table></div><div id="tab180"><table></table></div><div id="tab181"><table></table></div><div id="tab182"><table></table></div><div id="tab183"><table></table></div><div id="tab184"><table></table></div><div id="tab185"><table></table></div><div id="tab186"><table></table></div><div id="tab187"><table></table></div><div id="tab188"><table></table></div><div id="tab189"><table></table></div><div id="tab190"><table></table></div><div id="tab191"><table></table></div><div id="tab192"><table></table></div><div id="tab193"><table></table></div><div id="tab194"><table></table></div><div id="tab195"><table></table></div><div id="tab196"><table></table></div><div id="tab197"><table></table></div><div id="tab198"><table></table></div><div id="tab199"><table></table></div><div id="tab200"><table></table></div><div id="tab201"><table></table></div><div id="tab202"><table></table></div><div id="tab203"><table></table></div><div id="tab204"><table></table></div><div id="tab205"><table></table></div><div id="tab206"><table></table></div><div id="tab207"><table></table></div><div id="tab208"><table></table></div><div id="tab209"><table></table></div><div id="tab210"><table></table></div>		</div>
+		
+		
+		
+
+<script >
+
+function makeTabs(selector) {
+ 
+    tab_lists_anchors = document.querySelectorAll(selector + " li a");
+    divs = document.querySelector(selector).getElementsByTagName("div");
+    for (var i = 0; i < tab_lists_anchors.length; i++) {
+        if (tab_lists_anchors[i].classList.contains('active')) {
+            divs[i].style.display = "block";
+        }
+ 
+    }
+ 
+    for (i = 0; i < tab_lists_anchors.length; i++) {
+ 
+        document.querySelectorAll(".tabs li a")[i].addEventListener('click', function(e) {
+ 
+            for (i = 0; i < divs.length; i++) {
+                divs[i].style.display = "none";
+            }
+ 
+            for (i = 0; i < tab_lists_anchors.length; i++) {
+                tab_lists_anchors[i].classList.remove("active");
+            }
+ 
+            clicked_tab = e.target || e.srcElement;
+ 
+            clicked_tab.classList.add('active');
+            div_to_show = clicked_tab.getAttribute('href');
+ 
+            document.querySelector(div_to_show).style.display = "block";
+ 
+        });
+    }
+ 
+}
+
+window.addEventListener("load", function() {
+    makeTabs(".tabs")
+});
+
+</script>
+</body></html>
